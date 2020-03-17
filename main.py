@@ -16,7 +16,12 @@ def get_poke(mention):
     name = name.capitalize()
     type = data['types'][0]['type']['name']
     type = type.capitalize()
-    api.update_status('@' + mention.user.screen_name+ ("\nPokemon: " + name + "\n") +  ("Pokedex #: " + str(data['id']) + "\n") +   ("Type: " + type), mention.id)
+    api.update_status('@' + mention.user.screen_name+
+        ("\nPokemon: " + name + "\n") +
+        ("Pokedex #: " + str(data['id']) + "\n") +
+        ("Type: " + type+"\n")+
+        ("Height "+str(data['height']) + " Decimeters")+
+        ("Weight: " +str(data['weight']) + " hg"), mention.id)
 
 
 

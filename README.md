@@ -1,4 +1,4 @@
-# PokeFax
+# PikaFax
 A twitter bot that returns stats of various Program
 can be activated when a user tweets "@pikafax #poke"
 

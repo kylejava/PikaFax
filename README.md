@@ -10,7 +10,7 @@ can be activated when a user tweets "@pikafax #poke"
 
 ## Links
 
-### PokeAPI
+### Tweepy
 Link: https://www.tweepy.org/
 
 ### PokeAPI
